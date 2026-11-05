@@ -47,7 +47,7 @@ This repository documents my journey toward mastering JavaScript fundamentals th
 | 29 | Countdown Timer | ⬜ |
 | 30 | Whack A Mole | ⬜ |
 
-**Progress:** 0 / 30 completed
+**Progress:** 1 / 30 completed
 
 I'll update this table as I complete each challenge.
 
