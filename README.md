@@ -16,7 +16,7 @@ This repository documents my journey toward mastering JavaScript fundamentals th
 
 | Day | Project | Status |
 |-----|---------|--------|
-| 01 | JavaScript Drum Kit | ⬜ |
+| 01 | [JavaScript Drum Kit](https://github.com/EILIYA-bni/javascript30-challenge/tree/main/01-drum-kit) | ⬜ |
 | 02 | JS and CSS Clock | ⬜ |
 | 03 | CSS Variables | ⬜ |
 | 04 | Array Cardio Day 1 | ⬜ |
@@ -47,7 +47,7 @@ This repository documents my journey toward mastering JavaScript fundamentals th
 | 29 | Countdown Timer | ⬜ |
 | 30 | Whack A Mole | ⬜ |
 
-**Progress:** 0 / 30 completed
+**Progress:** 1 / 30 completed
 
 I'll update this table as I complete each challenge.
 
