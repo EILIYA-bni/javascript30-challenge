@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>JS and CSS Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+    <!-- Header Section -->
     <header class="header-container">
         <div class="name-logo">
-            <img src="https://avatars.githubusercontent.com/u/166543276?v=4" alt="EILIYA-bni github profile picture" width="130">
+            <img src="https://avatars.githubusercontent.com/u/166543276?v=4" alt="EILIYA-bni github profile picture"
+                width="130">
             <h1>JS and CSS Clock</h1>
         </div>
 
@@ -25,6 +28,48 @@
             </nav>
         </div>
     </header>
+
+    <!-- Main Section -->
+    <main class="main-content">
+        <!-- Editorial introduction -->
+        <section class="introduction">
+            <!-- Heading and description -->
+        </section>
+
+        <!-- Analog Clock -->
+        <section class="clock-section">
+            <div class="clock-face">
+
+                <!-- Clock numbers -->
+
+                <!-- Clock hands -->
+                <div class="hand hour-hand"></div>
+                <div class="hand minute-hand"></div>
+                <div class="hand second-hand"></div>
+
+                <!-- Center point -->
+                <div class="clock-center"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Digital information -->
+    <footer class="information">
+        <div class="time-information">
+            <span>LOCAL TIME</span>
+            <time datetime="digital-time">00:00:00</time>
+        </div>
+
+        <div class="date-information">
+            <span>DATE</span>
+            <time datetime="current-date">Loading...</time>
+        </div>
+
+        <div class="timezone-information">
+            <span>TIMEZONE</span>
+            <time datetime="timezone">Loading...</time>
+        </div>
+    </footer>
 </body>
 
 </html>
