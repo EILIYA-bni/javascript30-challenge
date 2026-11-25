@@ -76,22 +76,37 @@
             </section>
         </main>
 
-        <!-- Digital information -->
+        <!-- Digital information and clock controls -->
         <footer class="information">
+
             <div class="time-information">
-                <span>LOCAL TIME</span>
-                <time datetime="digital-time">00:00:00</time>
+                <span id="time-mode-label">LOCAL TIME</span>
+
+                <time id="digital-time" class="digital-time" datetime="">00:00:00</time>
+
+                <button type="button" id="format-toggle" class="clock-control" aria-pressed="false">
+                    Switch to 12-hour
+                </button>
             </div>
 
             <div class="date-information">
                 <span>DATE</span>
-                <time datetime="current-date">Loading...</time>
+
+                <time id="current-date" class="current-date" datetime="">Loading...</time>
             </div>
 
             <div class="timezone-information">
                 <span>TIMEZONE</span>
-                <time datetime="timezone">Loading...</time>
+
+                <span id="timezone" class="timezone">
+                    Loading...
+                </span>
+
+                <button type="button" id="timezone-toggle" class="clock-control" aria-pressed="false">
+                    Switch to UTC
+                </button>
             </div>
+
         </footer>
     </div>
 </body>
