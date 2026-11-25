@@ -171,7 +171,8 @@ body {
     background-color: rgba(255, 255, 255, 0.18);
 }
 
-.clock-face::before { /* Clock minute markers */
+.clock-face::before {
+    /* Clock minute markers */
     content: "";
 
     position: absolute;
@@ -179,30 +180,24 @@ body {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        from 0deg,
-        var(--ink) 0deg 0.5deg,
-        transparent 0.5deg 6deg
-    );
+    background: repeating-conic-gradient(from 0deg,
+            var(--ink) 0deg 0.5deg,
+            transparent 0.5deg 6deg);
 
-    -webkit-mask: radial-gradient(
-        farthest-side,
-        transparent calc(100% - 7px),
-        #000 calc(100% - 6.5px)
-    );
+    -webkit-mask: radial-gradient(farthest-side,
+            transparent calc(100% - 7px),
+            #000 calc(100% - 6.5px));
 
-    mask: radial-gradient(
-        farthest-side,
-        transparent calc(100% - 7px),
-        #000 calc(100% - 6.5px)
-    );
+    mask: radial-gradient(farthest-side,
+            transparent calc(100% - 7px),
+            #000 calc(100% - 6.5px));
 
     pointer-events: none;
 }
 
 /* Clock Numbers */
 .clock-number {
-    position:absolute;
+    position: absolute;
     z-index: 1;
 
     color: var(--muted);
@@ -245,7 +240,8 @@ body {
     transform-origin: 100% 50%;
 }
 
-.hour-hand { /* Hour hand styles */
+.hour-hand {
+    /* Hour hand styles */
     left: 17%;
     width: 33%;
     height: 6px;
@@ -254,7 +250,8 @@ body {
     z-index: 2;
 }
 
-.min-hand { /* Minute hand styles */
+.min-hand {
+    /* Minute hand styles */
     left: 8%;
     width: 42%;
     height: 3px;
@@ -263,7 +260,8 @@ body {
     z-index: 2;
 }
 
-.second-hand { /* Second hand styles */
+.second-hand {
+    /* Second hand styles */
     left: 4%;
     width: 46%;
     height: 2px;
@@ -274,7 +272,7 @@ body {
 
 /* Clock Center styles */
 .clock-center {
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     z-index: 4;
@@ -299,14 +297,14 @@ body {
     border-top: 1px solid var(--line);
 }
 
-.information > div {
+.information>div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 /* Footer Labels Styles */
-.information > div > span:first-child {
+.information>div>span:first-child {
     color: var(--muted);
 
     font-size: 10px;
@@ -315,7 +313,8 @@ body {
 }
 
 /* Footer Values Styles */
-.information time, .information .timezone {
+.information time,
+.information .timezone {
     color: var(--ink);
     font-family: var(--font-mono);
 }
@@ -326,6 +325,9 @@ body {
     letter-spacing: -0.06em;
 }
 
-.current-date, .timezone {
+.current-date,
+.timezone {
     font-size: 16px;
 }
+
+/* IF YOU WANT CONTINUE IT AND MAKE IT RESPONSIVE FOR ALL DEVICES */
