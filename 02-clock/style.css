@@ -50,3 +50,14 @@
     font-weight: bolder;
     border-bottom: 1px solid #333;
 }
+
+/* The CSS coding to the main design start from here */
+
+.introduction {
+
+}
+
+
+.information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
+    border: 1px solid #333;
+}
