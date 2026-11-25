@@ -254,6 +254,24 @@ body {
     z-index: 2;
 }
 
+.min-hand { /* Minute hand styles */
+    left: 8%;
+    width: 42%;
+    height: 3px;
+
+    background-color: var(--ink);
+    z-index: 2;
+}
+
+.second-hand { /* Second hand styles */
+    left: 4%;
+    width: 46%;
+    height: 2px;
+
+    background-color: var(--accent);
+    z-index: 3;
+}
+
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
     border: 1px solid var(--line);
 }
