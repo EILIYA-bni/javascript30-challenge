@@ -236,6 +236,24 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* Clock Hands Styles */
+.hand {
+    position: absolute;
+    top: 50%;
+    border-radius: 100px;
+    transform: rotate(90deg);
+    transform-origin: 100% 50%;
+}
+
+.hour-hand { /* Hour hand styles */
+    left: 17%;
+    width: 33%;
+    height: 6px;
+
+    background-color: var(--ink);
+    z-index: 2;
+}
+
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
     border: 1px solid var(--line);
 }
