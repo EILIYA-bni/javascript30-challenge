@@ -200,6 +200,42 @@ body {
     pointer-events: none;
 }
 
+/* Clock Numbers */
+.clock-number {
+    position:absolute;
+    z-index: 1;
+
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: clamp(12px, 1.2vw, 15px);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+.twelve {
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.three {
+    top: 50%;
+    right: 8%;
+    transform: translate(50%, -50%);
+}
+
+.six {
+    bottom: 8%;
+    right: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.nine {
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
     border: 1px solid var(--line);
 }
