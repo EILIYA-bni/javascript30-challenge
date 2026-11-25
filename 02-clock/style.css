@@ -23,14 +23,27 @@
     --page-padding: 48px;
 }
 
+body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-main);
+}
+
+.page-container {
+    width: min(100%, var(--page-width));
+    min-height: 100svh;
+    margin-inline: auto;
+    padding-block: 32px;
+}
 
 .header-container {
     width: 100%;
+    font-family: var(--font-main);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e3e3e3;
-    border-bottom: 1px solid #333;
+    background-color: var(--paper);
+    border-bottom: 1px solid var(--line);
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -85,7 +98,12 @@
 .editorial-introduction h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: var(--ink);
+}
+
+.editorial-introduction span {
+    font-size: 1rem;
+    color: var(--muted);
 }
 
 
