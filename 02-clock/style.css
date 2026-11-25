@@ -304,3 +304,28 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
+/* Footer Labels Styles */
+.information > div > span:first-child {
+    color: var(--muted);
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+/* Footer Values Styles */
+.information time, .information .timezone {
+    color: var(--ink);
+    font-family: var(--font-mono);
+}
+
+.digital-time {
+    font-size: clamp(24px, 2.8vw, 36px);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+}
+
+.current-date, .timezone {
+    font-size: 16px;
+}
