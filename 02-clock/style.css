@@ -106,6 +106,13 @@ body {
     color: var(--muted);
 }
 
+/* Main Content styles */
+.main-content {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    gap: 64px;
+}
 
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
     border: 1px solid var(--line);
