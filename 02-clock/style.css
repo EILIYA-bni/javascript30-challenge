@@ -72,7 +72,7 @@ body {
 
 .links a {
     text-decoration: none;
-    color: #333;
+    color: var(--ink);
     background-color: #c2c2c2;
     padding: 7px;
     border-radius: 5px;
@@ -82,13 +82,13 @@ body {
 .links a:hover {
     font-size: 20px;
     font-weight: bolder;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--accent);
 }
 
 /* The CSS coding to the main design start from here */
 
 .editorial-introduction {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--line);
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -108,5 +108,5 @@ body {
 
 
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
-    border: 1px solid #333;
+    border: 1px solid var(--line);
 }
