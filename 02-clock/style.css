@@ -1,7 +1,28 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
-    font-family: 'Roboto';
+    padding: 0px;
+    /* font-family: 'Roboto'; */
 }
+
+
+:root {
+    /* Colors */
+    --paper: #F4F2EC;
+    --ink: #171717;
+    --muted: #77756F;
+    --line: #D8D5CC;
+    --accent: #E94F2E;
+
+    /* Typography */
+    --font-main: Arial, Helvetica, sans-serif;
+    --font-mono: "Courier New", monospace;
+
+    /* Layout */
+    --page-width: 1280px;
+    --page-padding: 48px;
+}
+
 
 .header-container {
     width: 100%;
@@ -53,8 +74,18 @@
 
 /* The CSS coding to the main design start from here */
 
-.introduction {
+.editorial-introduction {
+    border-bottom: 1px solid #333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.editorial-introduction h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
 }
 
 
