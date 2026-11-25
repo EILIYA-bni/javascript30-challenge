@@ -153,6 +153,53 @@ body {
     line-height: 1.7;
 }
 
+/* Clock Section Styles */
+.clock-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face {
+    position: relative;
+
+    width: clamp(280px, 42vw, 540px);
+    aspect-ratio: 1;
+
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.clock-face::before { /* Clock minute markers */
+    content: "";
+
+    position: absolute;
+    inset: 13px;
+
+    border-radius: 50%;
+
+    background: repeating-conic-gradient(
+        from 0deg,
+        var(--ink) 0deg 0.5deg,
+        transparent 0.5deg 6deg
+    );
+
+    -webkit-mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 7px),
+        #000 calc(100% - 6.5px)
+    );
+
+    mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 7px),
+        #000 calc(100% - 6.5px)
+    );
+
+    pointer-events: none;
+}
+
 .information { /* This is a test to show the footer. I'm using CSS border to make it visible line */
     border: 1px solid var(--line);
 }
