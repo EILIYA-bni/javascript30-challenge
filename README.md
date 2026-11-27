@@ -18,7 +18,7 @@ This repository documents my journey toward mastering JavaScript fundamentals th
 |-----|---------|--------|
 | 01 | [JavaScript Drum Kit](https://github.com/EILIYA-bni/javascript30-challenge/tree/main/01-drum-kit) | ⬜ |
 | 02 | [JS and CSS Clock](https://github.com/EILIYA-bni/javascript30-challenge/tree/main/02-clock) | ⬜ |
-| 03 | CSS Variables | ⬜ |
+| 03 | [CSS Variables](https://github.com/EILIYA-bni/javascript30-challenge/tree/main/03-css-variables) | ⬜ |
 | 04 | Array Cardio Day 1 | ⬜ |
 | 05 | Flex Panel Gallery | ⬜ |
 | 06 | Type Ahead | ⬜ |
@@ -47,7 +47,7 @@ This repository documents my journey toward mastering JavaScript fundamentals th
 | 29 | Countdown Timer | ⬜ |
 | 30 | Whack A Mole | ⬜ |
 
-**Progress:** 2 / 30 completed
+**Progress:** 3 / 30 completed
 
 I'll update this table as I complete each challenge.
 
